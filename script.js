@@ -1,7 +1,7 @@
 function start(message) {
 	window.InputEvent = window.Event || window.InputEvent;
 	let input = new InputEvent('input', {bubbles: true});
-  let box = document.getElementsByClassName('_13NKt')[1]
+  let box = document.getElementsByClassName('_xxxxx')[1]
 	box.innerText = message;
 	box.dispatchEvent(input);
 	document.querySelector('[data-icon="send"]').click();
